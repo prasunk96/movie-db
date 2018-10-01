@@ -38,7 +38,7 @@ const styles = theme => ({
 
 class MovieList extends Component {
     componentDidMount() {
-        this.props.fetchData('http://www.mocky.io/v2/5b44a1b92f00006400583823');
+        this.props.fetchData('https://www.mocky.io/v2/5b44a1b92f00006400583823');
     }
     handleClick = (event, index, flag, filter) => {
         this.props.history.push(`/movie/details/${(filter==='')?'None':filter}/${index}`);
