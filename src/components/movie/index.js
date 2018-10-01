@@ -16,7 +16,7 @@ const styles = theme => ({
 class Movie extends Component {
   componentDidMount() {
     // let first = (url) => {
-      this.props.fetchData('http://www.mocky.io/v2/5b44a1b92f00006400583823');
+      this.props.fetchData('https://www.mocky.io/v2/5b44a1b92f00006400583823');
     // };
     // let second = () => {
       this.props.filterVal(this.props.match.params.filter, this.props.items);
