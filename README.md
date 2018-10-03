@@ -1,3 +1,8 @@
+## Running this application
+- cd to project folder
+- run (#npm install)
+- then run (#npm start) to start the application
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
