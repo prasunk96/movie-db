@@ -1,3 +1,5 @@
+## Demo
+- https://moviedbpreact.netlify.app/
 ## Running this application
 - cd to project folder
 - run `npm install`
